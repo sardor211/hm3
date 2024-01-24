@@ -1,0 +1,132 @@
+.offer{
+    background: #FFB342;
+    height: 900px;
+    margin-bottom: 140px;
+}
+.offer__desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.offer__desc-logo{
+    display: flex;
+    align-items: center;
+    max-width: 166.69px;
+    width: 100%;
+    background: #F4F4F4;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 22px;
+    margin-top: 150px;
+}
+.offer__desc-log{
+    font-family: 'Mulish-Regular', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0.36000001430511475px;
+    color:  #1C2752;
+    margin-bottom: 12px;
+}
+.offer__desc-text{
+    max-width: 832px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36000001430511475px;
+    text-align: center;
+    color:#1C2752;
+    margin-bottom: 37px;
+}
+.offer__desc-items{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.offer__desc-items-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 68px;
+    width: 200px;
+    cursor: pointer;
+    transition: .5s linear;
+    display: flex   ;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: white;
+}
+.offer__desc-items-link:hover{
+    background: #FFB342;
+    border: 1px solid #1C2752;
+}
+.offer__wrapper{
+    width: 1160px;
+    height: 528px;
+    background: white;
+    top: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: -1px 6px 18px 0px #00000017;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+}
+.offer__wrapper-title{
+    display: flex;
+    flex-direction: column;
+    max-width:624px ;
+    width: 100%;
+}
+.offer__wrapper-title-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 259px;
+    width: 100%;
+    background: #F4F4F4;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+.offer__wrapper-logo{
+    font-family: 'Mulish-Regular', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0.36000001430511475px;
+    color: #1C2752;
+    margin-bottom: 12px;
+}
+.offer__wrapper-txt{
+    max-width: 507px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36000001430511475px;
+    text-align: left;
+    color: #7E7E7E;
+    margin-bottom: 10px;
+}
+.offer__wrapper-btn{
+    margin-top: 19px;
+    width: 190px;
+    height: 68px;
+    border: 2px solid #FFB342;
+    background: #FFB342;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.36000001430511475px;
+    color: #1C2752;
+    cursor: pointer;
+    transition: .5s linear;
+}
+.offer__wrapper-btn:hover{
+    color: white;
+    background: #1C2752;
+    border: none;
+}

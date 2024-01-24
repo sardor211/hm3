@@ -1,0 +1,308 @@
+.price{
+    background: #F4F4F4;
+    margin-top: 140px;
+}
+.price__desc{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 140px;
+    margin-bottom: 40px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.price__desc-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.price__desc-logo-log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: white;
+    max-width: 146px;
+    width: 80%;
+    margin-bottom: 22px;
+    height: 25px;
+}
+.price__desc-txt{
+    font-family:'Mulish-Regular' ,sans-serif ;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0.36000001430511475px;
+    text-align: left;
+    max-width: 497px;
+    width: 100%;
+    color: #1C2752;
+}
+.price__desc-title{
+    display: flex;
+    margin-top: 41px;
+    max-width: 585px;
+    width: 100%;
+}
+.price__desc-title-txt{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36000001430511475px;
+    text-align: left;
+    color:#7E7E7E;
+}
+.price__card-logo{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    gap: 45px;
+    align-items: flex-end;
+    border-bottom: 2px solid  #D7D7D7;
+}
+.price__card-logo-log{
+    color: #1C2752;
+    margin-bottom: 36px;
+}
+.price__card-logo-log-text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.4000000059604645px;
+    margin-bottom: 10px;
+}
+.price__card-logo-log-txt{
+    font-family:'Mulish-Regular' ,sans-serif ;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.36000001430511475px;
+}
+.price__card-logo-text{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3199999928474426px;
+    color: #7E7E7E;
+    margin-bottom: 36px;
+}
+.price__card-title-txt{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36000001430511475px;
+    color: #7E7E7E;
+    gap: 10px;
+    display: flex  ;
+    margin-top: 20px;
+}
+.price__card-title-txt::before{
+    content: url(../imgs/like.svg);
+    position: relative;
+    top: 4px;
+}
+.price__cards-card{
+    max-width: 380px;
+    width: 100%;
+    background: white;
+    padding: 40px;
+    margin-bottom: 62px;
+}
+.price__cards-card-btn{
+    margin-top: 30px;
+    width: 300px;
+    height: 68px;
+    background: #FFB342;
+    color: #1C2752;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.36000001430511475px;
+    border: none;
+    cursor: pointer;
+    transition: .5s linear;
+}
+.price__cards-card-btn:hover{
+    background: #1C2752;
+    color: white;
+    border: 2px solid black;
+}
+.btn__nav{
+    position: absolute;
+    width: 78px;
+    height: 24px;
+    top: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3199999928474426px;
+    color: #1C2752;
+    background: #FFB342;
+    border: none;
+    right: 65px;
+    padding: 0 10px;
+}
+.price__cards-card:nth-child(2){
+    position: relative;
+}
+.price__footor-bloks{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.img__price{
+    width: 32px;
+    height: 32px;
+    background: #FFB342;
+    border-radius:100px ;
+    padding: 6px;
+}
+.price__footor-bloks-txt-text{
+    font-family:'Mulish-Regular' ,sans-serif ;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.36000001430511475px;
+    color: #1C2752;
+    margin-bottom: 10px;
+}
+.price__footor-bloks-txt-txt{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36000001430511475px;
+    text-align: left;
+    max-width: 501px;
+    width: 100%;
+    color: #7E7E7E;
+}
+.price__footor{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 128px;
+}
+.update__logo{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+.update__logo-log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #F4F4F4;
+    max-width: 146px;
+    width: 80%;
+    margin-bottom: 22px;
+    height: 25px;
+} 
+.update__logo-txt{
+    font-family:'Mulish-Regular' ,sans-serif ;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0.36000001430511475px;
+    color: #1C2752;
+    margin-bottom: 40px;
+}
+.upadete__box{
+    max-width: 580px;
+    width: 100%;
+    position: relative;
+}
+.nenegr__img{
+    position: relative;
+    margin-bottom: 50px;
+}
+.upadete__box-mini{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 180px;
+    width: 100%;
+    position: absolute;    
+    background: #FFC368;
+    left: 110px;
+    height: 62px;
+    top: 330px;
+    justify-content: center;
+}
+.upadete__box-mini2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 180px;
+    width: 100%;
+    position: absolute;    
+    background: #FFB342;
+    right: 110px;
+    height: 62px;
+    top:  330px;
+    justify-content: center;
+}
+.box__mini-txt{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.30000001192092896px;
+    color: #1C2752;
+}
+.box__txt{
+    font-family:'Mulish-Regular' ,sans-serif ;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.36000001430511475px;
+    text-align: left;
+    color: #1C2752;
+    margin-bottom: 16px;
+}
+.box__text{
+    max-width: 561px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36000001430511475px;
+    text-align: left;
+    color: #7E7E7E;
+    margin-bottom: 17px;
+    height: 81px;
+}
+.box__btn{
+    display: flex;
+    align-items: center;
+    max-width: 180px;
+    width: 100%;
+    justify-content: left;
+    gap: 10px;
+    height: 62px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.4000000059604645px;
+    color: #1C2752;
+    padding: 10px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    transition: .5s linear;
+}
+.box__btn:hover{
+    background: #FFB342;
+    color: white;
+}
+.update__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 80px;
+}

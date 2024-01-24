@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+    text-decoration: none;  
+    list-style: none;
+  }
+  .container{
+    max-width: 1440px;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  body{
+    font-family:'Inter-Regular' , sans-serif;
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family:'Inter-Regular' ;
+    src: url(../fonts/Inter-Regular.ttf) format("truetupe");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family:'Mulish-Regular' ;
+    src: url(../fonts/Mulish-Regular.ttf) format("truetupe");
+    font-weight: 400;
+  }
